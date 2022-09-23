@@ -1,0 +1,5 @@
+From our previous UML, which was simply a rough draft of what we planned on doing, we did not include mapping functions or the right structure. 
+We had an idea that didnt work out so we had to change it into a room function as the main super class which extended the rest of the classes, including
+move functions, fight functions, and health functions, as shown in the UML. When we finish the code that is the way we planned on doing it. Our structure stayed
+somewhat stagnant, however the attributes and the constructors/methods changed as the way we had done it in the first UML diagram did not attend to all
+the edge cases and other factors needed to make the code work.
