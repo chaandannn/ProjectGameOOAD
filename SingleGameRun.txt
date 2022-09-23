@@ -1,0 +1,7 @@
+Brawler spawned.
+Sneaker spawned. 
+Runner spawned. 
+Thief spawned. 
+Orbiters spawned.
+Seekers spawned. 
+Blinkers spawned. 
