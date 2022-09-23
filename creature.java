@@ -5,7 +5,7 @@ public abstract class creature { //superclass
     int xpos;
     int ypos;
     int zpos;
-    abstract void spawn();
+    abstract void spawn(); //abstract function/overload
     abstract void move();
 
     int findxc(){
@@ -26,7 +26,7 @@ public abstract class creature { //superclass
 
 
 }
-class orbiter extends creature{
+class orbiter extends creature{ //subclass
     void spawn() {
         int min = 0;
         int max = 2;
@@ -135,7 +135,7 @@ class orbiter extends creature{
 
 }
 
-class seeker extends creature{
+class seeker extends creature{ //subclass
     void spawn() {
         int min = 0;
         int max = 2;
@@ -154,7 +154,7 @@ class seeker extends creature{
 
 }
 
-class blinker extends creature{
+class blinker extends creature{ //subclass
 
     void spawn() {
         zpos = 4;
